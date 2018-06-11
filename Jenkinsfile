@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Code Checkout') { 
             steps {
-                // Provide git url to checkout using pipeline syntax
+                // Provide git url to checkout using pipeline syntax.
               git credentialsId: 'GithubID', url:                 'https://github.com/IndianTeamA/ui_project.git'
             }
         }
