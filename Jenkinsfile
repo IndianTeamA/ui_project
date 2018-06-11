@@ -25,5 +25,11 @@ pipeline {
              sh 'mvn install'  
             }
         }
+        stage('Deploy to Dev') { 
+            steps {
+                //
+             
+            }
+        }
     }
 }
